@@ -9,14 +9,18 @@ We use the Azure Container Service in the Microsoft Public Cloud in conjunction 
 
 http://bootcamp.azurezurichusergroup.com/
 
-
-
 ##Start MSSQL dbserver
 
 docker run 	-e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=AM89jkdip98LKMJdkp' -p 1433:1433 --name 'mydb' -d microsoft/mssql-server-linux
 
-##Start supersimple appserver
+##Create supersimple appserver
 
+docker build -t appserver .
+
+##Start supersimple appserver
+docker run -it --rm appserver /bin/bash
+
+... wow we are in the appserver container ....
 
 
 
