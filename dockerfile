@@ -1,6 +1,17 @@
 FROM centos
 
 ##################################################################
+# OBSERVE
+# You need to set the following environmental variables to run
+# this container:
+# MY_DB_SERVER  
+# MY_DB_PASSWD   
+# MY_USER_PASSWD 
+# MY_DB_USER   
+# MY_TEST_TARGET 
+##################################################################
+
+##################################################################
 #INSTALL sqlcmd and mssql-tools###################################
 #OBSERVE ACCEPTS EULA FOR THE MS-TOOLS, PLEASE READ AND UNDERSTAND
 COPY msprod.repo     /etc/yum.repos.d/
