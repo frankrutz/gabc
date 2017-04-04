@@ -18,9 +18,9 @@ docker run 	-e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=AM89jkdip98LKMJdkp' -p 1433:1433 
 docker build -t appserver .
 
 ##Start supersimple appserver
+
 docker run -it --rm appserver /bin/bash
 
-... wow we are in the appserver container ....
 
 
 
