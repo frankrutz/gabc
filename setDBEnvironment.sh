@@ -1,4 +1,4 @@
-export MY_DB_SERVER=my_db_server
+export MY_DB_SERVER=my_db
 export MY_DB_PASSWD=AM89jkdip98LKMJdkp
 export MY_USER_PASSWD=HodiPok8492mjkop
 export MY_DB_USER=potf0815
