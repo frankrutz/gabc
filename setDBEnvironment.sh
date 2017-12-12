@@ -1,4 +1,4 @@
-#!/usr/bin/ksh
+#!/usr/bin/sh
 #set up the DB
 #create User and database including passwd
 export MY_DB_SERVER=localhost
