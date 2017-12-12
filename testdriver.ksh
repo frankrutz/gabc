@@ -5,7 +5,7 @@ date
 echo "MY_DB_SERVER   ::${MY_DB_SERVER}::"
 echo "MY_DB_PASSWD   ::${MY_DB_PASSWD}::"
 echo "MY_USER_PASSWD ::${MY_USER_PASSWD}::"
-echo "MY_DB_USER     ::${MY_DB_PUSER}::"
+echo "MY_DB_USER     ::${MY_DB_USER}::"
 echo "MY_TEST_TARGET ::${MY_TEST_TARGET}::"
 
 sleep 1
