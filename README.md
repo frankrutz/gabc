@@ -19,7 +19,7 @@ docker build -t appserver .
 
 ##Start supersimple appserver
 
-docker run -it --rm appserver /bin/bash
+docker run -it --net=container:mydb appserver bash
 
 
 
